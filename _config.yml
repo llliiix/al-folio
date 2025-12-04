@@ -6,10 +6,8 @@ title: Lexin Li # the website title (if blank, full name will be used instead)
 first_name: Lexin
 #middle_name: R.
 last_name: Li
-contact_note: >
-  Hi, I'm Lexin Li!
-#description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  # 请在此处填写您的自我介绍或研究方向
+#contact_note: 
+description: Hi, I'm Lexin Li!
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -48,7 +46,7 @@ repo_trophies:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: false # 禁用搜索功能
+search_enabled: true
 socials_in_search: false
 posts_in_search: false
 bib_search: true
@@ -635,3 +633,25 @@ jsonresume:
   - languages
   - interests
   - references
+
+# Custom Navigation Menu (手动添加的导航栏菜单)
+navbar-menu:
+  - title: 'about' # 首页链接
+    url: 'about'
+  - title: 'publications' # 论文链接
+    url: 'publications'
+  # --- 其余链接已注释，不显示 ---
+  # - title: 'blog'
+  #   url: 'blog'
+  # - title: 'projects'
+  #   url: 'projects'
+  # - title: 'repositories'
+  #   url: 'repositories'
+  # - title: 'cv'
+  #   url: 'cv'
+  # - title: 'teaching'
+  #   url: 'teaching'
+  # - title: 'people'
+  #   url: 'people'
+  # - title: 'submenus'
+  #   url: 'submenus'
