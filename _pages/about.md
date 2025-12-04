@@ -5,7 +5,7 @@ permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc. # 保留原始内容，如需清空请在前面加 # 注释掉
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # 是否将图片裁剪成圆形 (true/false)
   more_info: >
