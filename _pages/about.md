@@ -2,11 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc. # 保留原始内容，如需清空请在前面加 # 注释掉
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: lexin_profile.jpg
   image_circular: false # 是否将图片裁剪成圆形 (true/false)
   more_info: >
     <p>Email: lilexin1212@gmail.com</p>
